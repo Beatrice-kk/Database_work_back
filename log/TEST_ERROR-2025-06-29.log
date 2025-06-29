@@ -195,3 +195,7 @@ PL/pgSQL function update_score(bigint,character varying,bigint,double precision,
  2025-06-29 16:10:06.175 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
  2025-06-29 16:59:03.369 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023326006"
  2025-06-29 16:59:04.061 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023326006"
+ 2025-06-29 17:06:07.158 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-29 17:06:07.773 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-29 17:06:10.051 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-29 17:06:10.453 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
