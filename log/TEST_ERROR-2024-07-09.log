@@ -1,0 +1,87 @@
+ 2024-07-09 01:42:03.548 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 11:49:24.266 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 11:58:07.724 [http-nio-8087-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "G21210": not a valid `java.lang.Integer` value
+ 2024-07-09 11:58:11.073 [http-nio-8087-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "G21210": not a valid `java.lang.Integer` value
+ 2024-07-09 12:02:57.032 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 16:58:58.149 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 16:59:07.694 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:04:43.968 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:09:28.028 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:17:23.066 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Request method 'GET' is not supported
+ 2024-07-09 17:18:31.472 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:18:56.100 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:20:11.426 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:21:46.914 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Request method 'GET' is not supported
+ 2024-07-09 17:23:39.806 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 17:23:49.190 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: relation "linyt_admin03" does not exist on dn_6001
+  位置：22
+### The error may exist in cn/lonesome/sms/mapper/AdminMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.AdminMapper.checkUsername-Inline
+### The error occurred while setting parameters
+### SQL: select count(*) from linyt_admin03 where lyt_id03=?
+### Cause: org.postgresql.util.PSQLException: ERROR: relation "linyt_admin03" does not exist on dn_6001
+  位置：22
+; bad SQL grammar []
+ 2024-07-09 17:23:51.036 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: relation "linyt_admin03" does not exist on dn_6001
+  位置：22
+### The error may exist in cn/lonesome/sms/mapper/AdminMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.AdminMapper.checkUsername-Inline
+### The error occurred while setting parameters
+### SQL: select count(*) from linyt_admin03 where lyt_id03=?
+### Cause: org.postgresql.util.PSQLException: ERROR: relation "linyt_admin03" does not exist on dn_6001
+  位置：22
+; bad SQL grammar []
+ 2024-07-09 17:23:53.119 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: relation "linyt_admin03" does not exist on dn_6001
+  位置：22
+### The error may exist in cn/lonesome/sms/mapper/AdminMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.AdminMapper.checkUsername-Inline
+### The error occurred while setting parameters
+### SQL: select count(*) from linyt_admin03 where lyt_id03=?
+### Cause: org.postgresql.util.PSQLException: ERROR: relation "linyt_admin03" does not exist on dn_6001
+  位置：22
+; bad SQL grammar []
+ 2024-07-09 17:26:09.203 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:19:29.177 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:22:33.870 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:32:32.682 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:32:40.414 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-09 20:32:56.381 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-09 20:36:34.803 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:36:41.677 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-09 20:37:00.122 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:37:06.947 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-09 20:38:18.250 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 20:51:22.313 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:01:12.135 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "202203150932"
+ 2024-07-09 21:02:48.793 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:03:18.410 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:05:11.309 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:06:10.370 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:06:17.197 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:08:34.447 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:09:06.754 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Cannot invoke "cn.lonesome.sms.model.entity.Admin.getId()" because "admin" is null
+ 2024-07-09 21:17:55.220 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:32:44.507 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:33:23.916 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:33:57.736 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:34:46.854 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:39:05.507 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:46:29.687 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:50:40.187 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:55:00.817 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 21:57:00.465 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:04.798 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:06.031 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:08.424 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:08.577 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:08.725 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:08.876 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:09.021 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 21:57:09.167 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is not present
+ 2024-07-09 22:02:26.737 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 22:06:25.100 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-09 23:56:14.301 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+ 2024-07-09 23:56:52.319 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported

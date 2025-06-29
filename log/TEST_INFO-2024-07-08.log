@@ -1,0 +1,131 @@
+ 2024-07-08 21:30:32.328 [main] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.7 with PID 61477 (/Users/yale/Downloads/SMS/SMS/target/classes started by yale in /Users/yale/Downloads/SMS/SMS)
+ 2024-07-08 21:30:32.330 [main] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2024-07-08 21:30:32.756 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+ 2024-07-08 21:30:32.760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+ 2024-07-08 21:30:32.761 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2024-07-08 21:30:32.761 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2024-07-08 21:30:32.780 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2024-07-08 21:30:32.781 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 434 ms
+ 2024-07-08 21:30:33.066 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+ 2024-07-08 21:30:33.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+ 2024-07-08 21:30:33.078 [main] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 0.898 seconds (process running for 1.224)
+ 2024-07-08 21:32:43.844 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2024-07-08 21:32:43.844 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2024-07-08 21:32:43.847 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 2024-07-08 21:32:43.883 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2024-07-08 21:32:43.903 [http-nio-8087-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2024-07-08 21:33:56.394 [main] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.7 with PID 61841 (/Users/yale/Downloads/SMS/SMS/target/classes started by yale in /Users/yale/Downloads/SMS/SMS)
+ 2024-07-08 21:33:56.396 [main] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2024-07-08 21:33:56.813 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+ 2024-07-08 21:33:56.818 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+ 2024-07-08 21:33:56.818 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2024-07-08 21:33:56.818 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2024-07-08 21:33:56.841 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2024-07-08 21:33:56.841 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 430 ms
+ 2024-07-08 21:33:57.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+ 2024-07-08 21:33:57.114 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+ 2024-07-08 21:33:57.119 [main] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 0.864 seconds (process running for 1.114)
+ 2024-07-08 21:34:02.986 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2024-07-08 21:34:02.986 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2024-07-08 21:34:02.988 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 2024-07-08 21:34:03.007 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2024-07-08 21:34:03.027 [http-nio-8087-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2024-07-08 21:34:03.077 [http-nio-8087-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a30d23
+ 2024-07-08 21:34:03.078 [http-nio-8087-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2024-07-08 21:34:06.286 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:06.692 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:06.735 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:07.389 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:07.402 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:07.782 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:07.825 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2024-07-08 21:34:08.128 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:08.168 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:34:08.491 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:08.506 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:34:08.875 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2024-07-08 21:34:09.780 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2024-07-08 21:34:10.170 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2024-07-08 21:34:11.195 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:11.205 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:34:11.730 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:11.764 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:14.167 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:14.175 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2024-07-08 21:34:14.581 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:14.596 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:34:15.035 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2024-07-08 21:34:15.598 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:15.637 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:34:16.206 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:16.244 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:16.755 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:16.793 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:34:17.226 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:17.239 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:21.412 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:21.900 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:21.910 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:22.447 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:24.563 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:24.574 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score/all_year
+ 2024-07-08 21:34:24.986 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2024-07-08 21:34:25.875 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student/hometown_count
+ 2024-07-08 21:34:27.362 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2024-07-08 21:34:27.800 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student/hometown_count
+ 2024-07-08 21:34:29.613 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:29.623 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score/all_year
+ 2024-07-08 21:34:30.092 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:30.105 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:34:30.526 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:34:41.688 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2024-07-08 21:34:41.698 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2024-07-08 21:34:41.706 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/college
+ 2024-07-08 21:34:41.772 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:32.284 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:32.360 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:49:32.832 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:32.868 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2024-07-08 21:49:33.388 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:33.400 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:49:34.033 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:34.032 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:49:37.282 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2024-07-08 21:49:37.992 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:38.001 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:49:38.553 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:38.562 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:49:39.181 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:39.191 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:49:39.852 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:39.866 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:49:40.303 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:40.315 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2024-07-08 21:49:43.327 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:43.350 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:49:43.865 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:43.876 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:49:44.675 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:44.686 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:49:45.103 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:49:45.115 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:49:45.621 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:28.870 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:28.908 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:53:29.372 [http-nio-8087-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:29.381 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:53:29.788 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:29.801 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:53:35.826 [http-nio-8087-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:35.835 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:53:36.240 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:36.255 [http-nio-8087-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2024-07-08 21:53:36.649 [http-nio-8087-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:44.349 [http-nio-8087-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:44.357 [http-nio-8087-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2024-07-08 21:53:46.032 [http-nio-8087-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2024-07-08 21:53:46.052 [http-nio-8087-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2024-07-08 21:53:57.841 [http-nio-8087-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2024-07-08 21:53:58.729 [http-nio-8087-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2024-07-08 21:55:03.302 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2024-07-08 21:55:03.303 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

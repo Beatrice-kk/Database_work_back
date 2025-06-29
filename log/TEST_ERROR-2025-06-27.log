@@ -1,0 +1,119 @@
+ 2025-06-27 11:41:10.866 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-27 11:41:11.606 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-27 14:29:59.983 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:30:02.365 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:30:33.900 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:30:37.687 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:41:14.909 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:41:18.674 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:41:44.525 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exams.
+ 2025-06-27 14:49:33.681 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-27 14:49:34.671 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-27 15:11:21.206 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "course_name" does not exist
+  位置：8
+  在位置：referenced column: course_name
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT course_name, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "course_name" does not exist
+  位置：8
+  在位置：referenced column: course_name
+; bad SQL grammar []
+ 2025-06-27 15:11:21.917 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "course_name" does not exist
+  位置：8
+  在位置：referenced column: course_name
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT course_name, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "course_name" does not exist
+  位置：8
+  在位置：referenced column: course_name
+; bad SQL grammar []
+ 2025-06-27 15:11:23.253 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "course_name" does not exist
+  位置：8
+  在位置：referenced column: course_name
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT course_name, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "course_name" does not exist
+  位置：8
+  在位置：referenced column: course_name
+; bad SQL grammar []
+ 2025-06-27 15:11:40.295 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-27 15:11:41.205 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-27 17:16:54.752 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/exams_stu.
+ 2025-06-27 17:16:56.229 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/exams_stu.
+ 2025-06-27 17:17:10.677 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/exams_stu.
+ 2025-06-27 17:18:10.501 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-27 17:18:11.278 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-27 19:13:03.113 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-27 19:13:03.939 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-27 20:05:19.455 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:19.526 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:19.994 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:26.435 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:26.439 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:26.440 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:26.442 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:28.795 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:29.192 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:29.223 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:30.811 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:37.650 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:38.220 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:38.641 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:38.669 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:40.265 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:40.937 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:40.937 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:40.938 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:05:40.938 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-27 20:06:27.002 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Cannot invoke "cn.lonesome.sms.model.entity.Admin.getId()" because "admin" is null
+ 2025-06-27 21:01:20.162 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150823"
+ 2025-06-27 21:01:20.703 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150823"
+ 2025-06-27 21:01:20.816 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150823"
+ 2025-06-27 21:01:21.036 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150823"
+ 2025-06-27 21:01:42.047 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: null value in column "cwk_course_id03" violates not-null constraint
+  详细：Failing row contains (202203151202, null, 20006, 97, f, 2022-2023(2)).
+  在位置：SQL statement "UPDATE ONLY "public"."chenwk_score03" SET "cwk_course_id03" = NULL WHERE $1 OPERATOR(pg_catalog.=) "cwk_course_id03""
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.CourseMapper.delete-Inline
+### The error occurred while setting parameters
+### SQL: delete from chenwk_course03 where cwk_id03 = ?
+### Cause: org.postgresql.util.PSQLException: ERROR: null value in column "cwk_course_id03" violates not-null constraint
+  详细：Failing row contains (202203151202, null, 20006, 97, f, 2022-2023(2)).
+  在位置：SQL statement "UPDATE ONLY "public"."chenwk_score03" SET "cwk_course_id03" = NULL WHERE $1 OPERATOR(pg_catalog.=) "cwk_course_id03""
+; ERROR: null value in column "cwk_course_id03" violates not-null constraint
+  详细：Failing row contains (202203151202, null, 20006, 97, f, 2022-2023(2)).
+  在位置：SQL statement "UPDATE ONLY "public"."chenwk_score03" SET "cwk_course_id03" = NULL WHERE $1 OPERATOR(pg_catalog.=) "cwk_course_id03""
+ 2025-06-27 21:01:45.253 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: null value in column "cwk_course_id03" violates not-null constraint
+  详细：Failing row contains (202203151202, null, 20006, 97, f, 2022-2023(2)).
+  在位置：SQL statement "UPDATE ONLY "public"."chenwk_score03" SET "cwk_course_id03" = NULL WHERE $1 OPERATOR(pg_catalog.=) "cwk_course_id03""
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.CourseMapper.delete-Inline
+### The error occurred while setting parameters
+### SQL: delete from chenwk_course03 where cwk_id03 = ?
+### Cause: org.postgresql.util.PSQLException: ERROR: null value in column "cwk_course_id03" violates not-null constraint
+  详细：Failing row contains (202203151202, null, 20006, 97, f, 2022-2023(2)).
+  在位置：SQL statement "UPDATE ONLY "public"."chenwk_score03" SET "cwk_course_id03" = NULL WHERE $1 OPERATOR(pg_catalog.=) "cwk_course_id03""
+; ERROR: null value in column "cwk_course_id03" violates not-null constraint
+  详细：Failing row contains (202203151202, null, 20006, 97, f, 2022-2023(2)).
+  在位置：SQL statement "UPDATE ONLY "public"."chenwk_score03" SET "cwk_course_id03" = NULL WHERE $1 OPERATOR(pg_catalog.=) "cwk_course_id03""
+ 2025-06-27 21:29:40.194 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150932"
+ 2025-06-27 21:29:41.833 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150932"
+ 2025-06-27 21:29:42.251 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "202203150932"
+ 2025-06-27 22:01:34.592 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/get_stu_info.
+ 2025-06-27 22:01:44.738 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/get_stu_info.
+ 2025-06-27 22:02:20.334 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/get_stu_info.
+ 2025-06-27 22:02:52.107 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/get_stu_info.
+ 2025-06-27 22:02:56.485 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/student/get_stu_info.
+ 2025-06-27 22:14:15.893 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-27 22:14:16.710 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file

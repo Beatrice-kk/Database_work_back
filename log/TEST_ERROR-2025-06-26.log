@@ -1,0 +1,13 @@
+ 2025-06-26 13:31:47.579 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-26 13:31:48.327 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-26 14:22:37.900 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-26 14:22:38.819 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-26 14:30:57.774 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-26 14:30:58.504 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-26 20:35:03.735 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-26 20:35:04.492 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-26 22:38:50.978 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exam_dates.
+ 2025-06-26 22:39:08.159 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exam_dates.
+ 2025-06-26 22:39:11.275 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exam_dates.
+ 2025-06-26 22:39:48.883 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exam_dates.
+ 2025-06-26 22:39:54.051 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/exam_dates.

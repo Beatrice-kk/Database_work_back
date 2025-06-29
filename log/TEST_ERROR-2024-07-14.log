@@ -1,0 +1,9 @@
+ 2024-07-14 00:10:29.267 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-14 00:30:57.063 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-14 00:31:11.117 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-14 00:31:24.423 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-14 00:31:40.826 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-14 00:31:41.000 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-14 00:31:41.151 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-14 00:31:47.235 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-14 00:32:03.319 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file

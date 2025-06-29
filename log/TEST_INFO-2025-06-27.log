@@ -1,0 +1,1281 @@
+ 2025-06-27 11:34:41.644 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exam_dates
+ 2025-06-27 11:34:41.767 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 11:34:45.787 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 11:34:45.790 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 11:34:45.797 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 11:35:07.801 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 11:35:09.686 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 11:35:31.710 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 11:35:31.711 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 11:35:31.716 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 11:39:20.217 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 11:39:20.363 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-27 11:41:10.276 [main] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 37956 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-27 11:41:10.277 [main] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-27 11:41:10.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-27 11:41:11.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 11:41:11.001 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-27 11:41:11.002 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-27 11:41:11.042 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-27 11:41:11.042 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+ 2025-06-27 11:41:11.861 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 11:41:11.872 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-27 11:41:11.878 [main] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.854 seconds (process running for 2.426)
+ 2025-06-27 11:44:18.406 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-27 11:44:18.407 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-27 11:44:18.408 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-27 11:44:18.434 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 11:44:18.456 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 12:22:25.796 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 12:22:25.904 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-27 12:22:26.313 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b9f36dc
+ 2025-06-27 12:22:26.314 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-27 12:22:26.449 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 12:22:26.594 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 12:22:26.604 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 12:22:31.147 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 13:55:31.058 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 13:55:31.058 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 13:55:31.083 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 13:55:31.083 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 14:06:00.675 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 14:06:00.703 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:00.709 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:06:01.804 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-27 14:06:01.806 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:01.809 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 14:06:02.813 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 14:06:02.814 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:02.818 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 14:06:03.968 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 14:06:03.970 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:03.976 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 14:06:04.029 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 14:06:04.030 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:04.033 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:06:04.097 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 14:06:04.098 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:04.109 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 14:06:04.136 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 14:06:04.137 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:06:04.139 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:06:09.594 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 14:14:43.492 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:29:59.831 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 14:29:59.896 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:29:59.919 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:30:02.363 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:30:33.853 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:30:37.685 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:36:03.688 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-27 14:36:03.691 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:03.694 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 14:36:04.510 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 14:36:04.515 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:04.519 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:36:04.959 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 14:36:04.960 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:04.969 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:36:05.719 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 14:36:05.720 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:05.725 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 14:36:05.792 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 14:36:05.793 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:05.797 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:36:05.851 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 14:36:05.852 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:05.856 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 14:36:05.883 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 14:36:05.884 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:36:05.886 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:36:06.576 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:36:08.486 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:41:14.898 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:41:18.671 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:41:44.522 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 14:49:26.754 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 14:49:26.793 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-27 14:49:33.084 [main] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 37232 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-27 14:49:33.086 [main] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-27 14:49:33.811 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-27 14:49:33.819 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 14:49:33.820 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-27 14:49:33.821 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-27 14:49:33.867 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-27 14:49:33.867 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 754 ms
+ 2025-06-27 14:49:35.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 14:49:35.020 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-27 14:49:35.027 [main] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 2.221 seconds (process running for 2.828)
+ 2025-06-27 14:50:29.266 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-27 14:50:29.267 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-27 14:50:29.267 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-27 14:50:29.290 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:50:29.313 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:32.729 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 14:50:32.730 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:33.472 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:50:33.473 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:34.450 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 14:50:34.450 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:34.457 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 14:50:34.458 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:34.466 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:50:34.467 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:35.697 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:50:35.698 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:36.738 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 14:50:36.739 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 14:50:45.577 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 14:50:45.584 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 14:50:45.619 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-27 14:50:45.881 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40210fdc
+ 2025-06-27 14:50:45.882 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-27 14:50:49.194 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 14:50:49.872 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:51:07.353 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 14:51:19.722 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:51:19.990 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 14:51:20.029 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 14:51:20.074 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 14:51:20.093 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 15:11:20.788 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 15:11:20.817 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:11:20.829 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:11:21.670 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:11:23.240 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:11:35.819 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 15:11:35.930 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-27 15:11:39.718 [main] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 36064 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-27 15:11:39.721 [main] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-27 15:11:40.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-27 15:11:40.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 15:11:40.441 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-27 15:11:40.441 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-27 15:11:40.486 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-27 15:11:40.486 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 740 ms
+ 2025-06-27 15:11:41.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 15:11:41.787 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-27 15:11:41.797 [main] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 2.333 seconds (process running for 2.858)
+ 2025-06-27 15:13:10.064 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-27 15:13:10.064 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-27 15:13:10.065 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-27 15:13:10.088 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:13:10.116 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:13:21.002 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 15:13:21.057 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-27 15:13:21.512 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39379b1d
+ 2025-06-27 15:13:21.514 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-27 15:13:21.705 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:13:25.058 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:15:56.922 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:15:57.430 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:16:15.848 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:16:30.983 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:18:11.415 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:36:33.404 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 15:36:33.409 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 15:36:33.648 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:41:13.222 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:41:13.240 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:41:13.266 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:41:13.285 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:41:13.305 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 15:41:24.952 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 15:41:24.955 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 15:44:31.328 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 15:44:31.340 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:31.345 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:31.478 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:35.441 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:35.466 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:36.100 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.101 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.107 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.217 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.218 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.221 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.255 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.256 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.258 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.316 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.318 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.320 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.357 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.359 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.361 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.394 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.394 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.397 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.429 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.430 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.432 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.456 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 15:44:36.458 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 15:44:36.462 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:36.981 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:37.014 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:42.196 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.217 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.238 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.262 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.290 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.310 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.333 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:42.360 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 15:44:43.999 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:44:44.018 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:51:11.045 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 15:51:11.089 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 16:37:19.405 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.440 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.451 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.704 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.705 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.709 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.739 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.741 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.748 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.810 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.812 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.816 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.855 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.857 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.870 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.907 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.908 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.910 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.943 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.944 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.946 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:37:19.976 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 16:37:19.977 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:37:19.980 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 16:38:15.049 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:15.050 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:15.073 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:15.074 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:15.075 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:15.151 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:17.024 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:17.024 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:17.026 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:17.026 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:17.033 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:17.071 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:18.606 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:18.606 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:18.607 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:18.607 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:18.610 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:18.669 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:20.684 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:20.684 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/class_table
+ 2025-06-27 16:38:20.685 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:20.685 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 16:38:20.688 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 16:38:20.716 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/class_table
+ 2025-06-27 17:06:49.205 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/score
+ 2025-06-27 17:06:49.207 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 17:06:49.212 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/score
+ 2025-06-27 17:06:52.254 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 17:06:52.256 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 17:06:52.265 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 17:06:52.321 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 17:15:09.809 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 17:15:09.811 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 17:15:11.431 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 17:16:54.678 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 17:16:54.680 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 17:16:54.686 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:16:56.227 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:17:10.653 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:18:05.499 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 17:18:05.515 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-27 17:18:09.898 [main] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 21548 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-27 17:18:09.900 [main] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-27 17:18:10.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-27 17:18:10.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 17:18:10.635 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-27 17:18:10.635 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-27 17:18:10.675 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-27 17:18:10.676 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 749 ms
+ 2025-06-27 17:18:11.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 17:18:11.556 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-27 17:18:11.561 [main] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.935 seconds (process running for 2.574)
+ 2025-06-27 17:19:09.036 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-27 17:19:09.036 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-27 17:19:09.037 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-27 17:19:09.060 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 17:19:09.070 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 17:19:09.099 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-27 17:19:09.386 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@314926d2
+ 2025-06-27 17:19:09.388 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-27 17:19:09.593 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:19:29.902 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:19:37.693 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:25:11.549 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:25:19.175 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:25:21.933 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:26:38.302 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:26:40.585 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:26:48.659 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:28:10.979 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:29:13.158 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:29:59.724 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:30:05.695 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:30:11.789 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:31:07.205 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:31:13.999 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:31:22.788 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 17:33:44.060 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 17:33:44.086 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 17:33:44.144 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 17:33:57.045 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:08:06.028 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 19:08:06.154 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:12:33.732 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 19:12:33.749 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-27 19:13:02.447 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 41776 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-27 19:13:02.450 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-27 19:13:02.488 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-27 19:13:02.488 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-27 19:13:03.266 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-27 19:13:03.273 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 19:13:03.274 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-27 19:13:03.275 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-27 19:13:03.308 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-27 19:13:03.308 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+ 2025-06-27 19:13:04.190 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-27 19:13:04.204 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 19:13:04.215 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-27 19:13:04.221 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 2.04 seconds (process running for 2.677)
+ 2025-06-27 19:13:28.171 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-27 19:13:28.172 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-27 19:13:28.173 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-27 19:13:28.194 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 19:13:28.218 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:40.694 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 19:14:40.696 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:40.703 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:14:40.707 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.201 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.205 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.216 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.219 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.231 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.235 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.243 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.244 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.255 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.257 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.263 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.264 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.271 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.272 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.276 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.277 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.283 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.284 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.286 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.287 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.291 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.292 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.295 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.297 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.302 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.304 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.307 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.308 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.314 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 19:14:41.316 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:14:41.318 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:14:41.320 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:27.794 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:27.796 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:27.833 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:27.835 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:28.137 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:28.138 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:28.299 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:28.302 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:28.342 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:28.344 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:28.365 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:28.367 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:28.389 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:28.390 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:28.404 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 19:15:28.406 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:15:56.606 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:15:56.607 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:35.952 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 19:18:35.953 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:35.957 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 19:18:35.959 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:36.524 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-27 19:18:36.525 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:36.529 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 19:18:36.530 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:37.083 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 19:18:37.085 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:37.088 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 19:18:37.089 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:39.059 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 19:18:39.061 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:40.034 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 19:18:40.035 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:40.442 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 19:18:40.443 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:18:52.189 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 19:18:52.193 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 19:18:52.291 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-27 19:18:52.604 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e57ec1b
+ 2025-06-27 19:18:52.606 [http-nio-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-27 19:18:52.841 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:19:02.997 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 19:19:02.998 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:19:03.005 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 19:19:03.118 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 19:19:03.119 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:19:03.121 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 19:19:03.194 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 19:19:03.195 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:19:03.199 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 19:19:03.224 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 19:19:03.226 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:19:03.229 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 19:19:05.164 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 19:19:29.289 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-27 19:19:29.290 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:19:29.292 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/admin/student
+ 2025-06-27 19:19:29.375 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 19:19:29.866 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 19:19:38.423 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/admin/student
+ 2025-06-27 19:19:38.644 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 19:19:47.102 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/admin/student
+ 2025-06-27 19:19:47.289 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 19:21:51.760 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 19:21:51.764 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 19:21:51.838 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:21:57.979 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:21:58.080 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:24:26.176 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:24:26.203 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:25:36.779 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:25:36.797 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:25:37.994 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:25:38.012 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:27:32.438 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:27:32.481 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:27:40.951 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:27:40.975 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:27:46.739 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:27:46.759 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:02.709 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:02.723 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:07.398 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:07.419 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:14.140 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:14.161 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:20.362 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:20.386 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:23.521 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:28:23.541 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:31:47.958 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:31:47.974 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 19:31:49.496 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:41:44.707 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 19:41:44.709 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:41:44.713 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:42:27.993 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:42:41.522 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:42:48.254 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:45:30.003 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:45:51.407 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:46:04.942 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:46:08.359 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 19:46:08.359 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 19:46:08.363 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:51:38.217 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 19:51:38.351 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:52:01.753 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:52:01.842 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:54:15.316 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:54:21.691 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:54:29.937 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:54:52.733 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:55:06.997 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:55:17.915 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:55:22.809 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:57:24.007 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:57:50.360 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:57:54.570 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:57:58.104 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:58:15.472 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:58:20.044 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:58:33.959 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:58:46.942 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:59:04.724 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:59:12.512 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:59:21.412 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:59:27.561 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:59:35.882 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 19:59:58.772 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:00:40.244 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:01:51.080 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:02:23.716 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:03:04.205 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:03:08.407 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:03:54.439 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:05:19.408 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 20:05:19.411 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:19.417 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:05:19.464 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 20:05:19.465 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:19.469 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:05:19.521 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 20:05:19.521 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:19.523 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:05:19.986 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 20:05:19.987 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:19.990 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:05:26.429 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course_schedule
+ 2025-06-27 20:05:26.430 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:26.430 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 20:05:26.431 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:26.433 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 20:05:26.433 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:05:26.433 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:26.438 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:05:26.438 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:05:26.439 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:05:28.794 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:05:29.191 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:05:29.199 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:05:29.222 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:05:30.808 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:05:37.640 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-27 20:05:37.642 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:37.648 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 20:05:38.213 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 20:05:38.215 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:05:38.219 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:05:38.640 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:05:38.650 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:05:38.669 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:05:40.263 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:05:40.936 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:05:40.936 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:05:40.936 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:05:40.937 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:12.285 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:06:15.057 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 20:06:15.059 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:15.061 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 20:06:15.217 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 20:06:16.224 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.226 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.229 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.358 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.359 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.362 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.415 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.416 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.419 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.487 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.488 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.490 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.539 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.540 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.542 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.588 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.588 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.591 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.622 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.623 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.626 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:16.650 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 20:06:16.651 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:16.654 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.543 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.570 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.592 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.611 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.634 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.656 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.682 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:17.705 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:06:26.967 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 20:06:26.970 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 20:06:33.595 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 20:06:33.671 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:06:36.661 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 20:06:37.287 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:38.327 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:38.370 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 20:06:38.372 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:38.374 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:38.430 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:38.451 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:38.722 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:39.682 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:39.724 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:39.769 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:39.789 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:39.998 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:40.609 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:06:40.610 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:40.610 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:40.610 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:41.019 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:42.321 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:42.670 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:42.735 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:42.783 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:42.811 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:43.149 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:43.745 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 20:06:44.323 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 20:06:44.325 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:44.331 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:44.868 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 20:06:45.245 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:45.589 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:45.636 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:45.693 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:45.711 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:45.973 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:46.365 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:06:46.377 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:46.378 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:46.379 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:46.714 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 20:06:46.715 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:06:46.720 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:47.227 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:06:47.227 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:47.227 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:47.227 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:47.603 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:48.723 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:49.051 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:49.077 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:49.128 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:49.152 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:49.759 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:50.138 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 20:06:50.527 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:50.994 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:51.364 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:51.389 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:51.444 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:51.461 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:51.640 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:52.210 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:06:52.211 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:52.212 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:52.212 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:52.531 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:52.873 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 20:06:52.884 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:52.884 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:52.884 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:53.170 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:06:53.854 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:54.551 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 20:06:54.597 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 20:06:54.640 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 20:06:54.664 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 20:06:54.886 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 20:14:27.936 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:17:01.389 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 20:17:01.390 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:17:01.397 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:17:33.542 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:17:33.574 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:17:36.681 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:18:00.192 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 20:18:00.193 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:18:00.197 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 20:18:22.762 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:18:22.838 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:18:29.798 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:19:31.737 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:20:27.013 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:20:33.174 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:21:02.381 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:21:25.606 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:23:51.750 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:23:52.257 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 20:24:59.682 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:27:18.659 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:27:31.556 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:27:31.636 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:27:50.254 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:28:17.369 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:28:21.330 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:28:39.015 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:30:34.551 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:31:30.992 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:31:34.621 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:31:38.725 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:32:18.145 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 20:32:18.148 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 20:32:18.298 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 20:32:22.451 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 20:32:22.529 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 20:32:23.817 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 20:32:23.846 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 20:32:24.798 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:24.868 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:24.894 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:24.938 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:24.969 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:25.000 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:25.021 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:25.043 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 20:32:30.371 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 20:33:52.137 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:33:57.613 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:34:13.379 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:34:35.734 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:35:05.169 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:35:38.023 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:35:43.695 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:35:47.906 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:36:03.941 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:36:07.410 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:37:10.392 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:38:20.718 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:38:22.801 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:38:38.685 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:40:46.248 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:40:58.633 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:41:07.627 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:41:12.761 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:41:29.022 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:41:29.045 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:41:41.192 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:41:43.217 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:44:51.670 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:44:51.959 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 20:44:53.871 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:45:53.159 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:45:54.025 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 20:46:00.174 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:11.030 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:14.284 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:14.942 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:30.264 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:41.096 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:45.589 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:52.640 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:46:54.396 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:47:43.108 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 20:47:43.119 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 20:47:43.123 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:47:52.003 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:48:13.000 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:52:23.082 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:57:25.696 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:58:19.248 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:58:24.926 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:58:29.623 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:58:37.958 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:58:42.535 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:59:14.219 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 20:59:54.008 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:01:20.096 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 21:01:20.098 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:20.106 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:01:20.697 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 21:01:20.698 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:20.701 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:01:20.714 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 21:01:20.714 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:20.717 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 21:01:20.800 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 21:01:20.801 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:20.804 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:01:21.032 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 21:01:21.033 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:21.035 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:01:30.226 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 21:01:30.231 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 21:01:30.353 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:01:31.379 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:01:31.951 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course_schedule
+ 2025-06-27 21:01:31.953 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:31.953 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:01:31.957 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 21:01:31.957 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 21:01:31.957 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:31.957 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:31.960 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:01:31.963 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:01:31.965 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:01:32.353 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:01:41.102 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 21:01:41.104 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:01:41.111 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: DELETE uri: /api/admin/course
+ 2025-06-27 21:01:41.739 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:01:45.220 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: DELETE uri: /api/admin/course
+ 2025-06-27 21:01:45.376 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:20.320 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:02:20.320 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:02:20.321 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:02:20.321 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:22.311 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 21:02:22.312 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:02:22.316 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 21:02:23.225 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:02:23.226 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:02:23.226 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:02:23.226 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:23.883 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:24.799 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:02:24.800 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:02:24.800 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:24.802 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:02:25.688 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:26.164 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:02:26.165 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:02:26.165 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:26.166 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:02:27.926 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:28.915 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:02:28.916 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:02:28.916 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:28.917 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:02:29.554 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:31.015 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:02:31.015 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:02:31.015 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:02:31.015 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:02:54.354 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 21:02:54.355 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:02:54.359 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:02:58.891 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:03:41.189 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:03:57.280 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:04:29.985 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:19:20.001 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:19:20.507 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:19:20.660 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 21:19:20.668 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:19:20.674 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:19:20.723 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 21:19:20.771 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:19:20.954 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:19:45.751 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:19:45.786 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:19:45.826 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 21:19:45.847 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:21:36.958 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 21:21:36.960 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:21:36.963 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:21:51.902 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 21:21:51.902 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:21:51.910 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/class
+ 2025-06-27 21:21:52.154 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:21:52.191 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:28:13.890 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 21:28:13.891 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:13.893 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:13.979 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:14.511 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.512 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.514 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.563 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.563 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.565 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.592 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.593 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.596 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.621 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.622 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.624 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.647 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.647 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.649 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.677 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.678 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.680 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.701 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.702 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.703 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:14.715 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:28:14.715 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:28:14.717 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:17.240 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:17.263 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:18.388 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:28:20.392 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:20.419 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:21.343 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:21.356 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:28:21.679 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.696 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.712 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.730 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.749 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.766 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.784 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:21.801 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:28:45.663 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 21:28:45.667 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:28:45.695 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 21:28:47.170 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:28:47.193 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 21:28:47.258 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:28:47.273 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 21:28:48.128 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:28:48.152 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 21:28:51.391 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:28:51.410 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 21:29:06.488 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:29:06.977 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:29:07.002 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:29:07.038 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 21:29:07.062 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:29:07.332 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:29:09.270 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 21:29:09.271 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:29:09.275 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:29:14.456 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:29:14.471 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-27 21:29:24.133 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:29:24.202 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:29:26.529 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:29:26.552 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:29:29.275 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:29:29.290 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:29:32.291 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:29:32.304 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:29:32.697 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.710 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.728 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.749 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.770 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.785 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.814 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:32.835 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:33.912 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:33.926 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:33.944 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:33.963 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:33.985 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:34.002 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:34.026 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:34.044 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.116 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.132 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.147 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.168 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.187 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.205 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.228 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:35.246 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:29:40.185 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-27 21:29:40.186 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:29:40.191 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:29:41.832 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:29:42.250 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:29:43.151 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:29:50.580 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 21:29:50.634 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:29:53.494 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 21:29:53.494 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:29:53.499 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:29:53.875 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:47:36.236 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:47:41.363 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:47:44.279 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:52:00.926 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:54:59.561 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:55:15.187 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:55:15.923 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:55:16.374 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 21:55:16.407 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:16.412 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:55:16.985 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-27 21:55:17.624 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:55:18.056 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:55:18.369 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 21:55:18.370 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:18.374 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:55:18.409 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-27 21:55:18.410 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:18.411 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-27 21:55:18.448 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-27 21:55:18.448 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:18.451 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-27 21:55:18.470 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-27 21:55:18.471 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:18.473 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:55:19.207 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 21:55:19.208 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:19.210 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:55:19.624 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course_schedule
+ 2025-06-27 21:55:19.626 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-27 21:55:19.626 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-27 21:55:19.626 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:19.626 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-27 21:55:19.626 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:19.626 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:19.631 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-27 21:55:19.631 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-27 21:55:19.633 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-27 21:55:21.626 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:55:21.707 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:55:22.005 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.082 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.106 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.137 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.168 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.197 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.323 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.444 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:22.589 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:55:22.603 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:55:23.740 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 21:55:23.741 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:55:23.744 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:55:44.252 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:55:53.935 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:53.951 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:53.987 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:54.005 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:54.024 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:54.043 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:54.076 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:55:54.091 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:56:43.216 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:56:48.337 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:56:55.348 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:57:04.819 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:57:09.281 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 21:57:19.045 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:58:31.632 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:59:18.682 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 21:59:18.683 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:18.688 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:59:18.716 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:59:19.927 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:59:23.781 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:59:23.794 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:59:24.267 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.268 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.274 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.291 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.292 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.293 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.333 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.334 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.335 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.352 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.352 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.354 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.384 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.384 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.386 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.422 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.423 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.424 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.442 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.443 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.444 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:24.471 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 21:59:24.472 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 21:59:24.474 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 21:59:26.817 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:59:51.085 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 21:59:51.094 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 21:59:51.168 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 21:59:53.617 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:59:53.633 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 21:59:54.688 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:00:07.139 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:01:34.375 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:01:34.510 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/get_stu_info
+ 2025-06-27 22:01:34.511 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:01:34.519 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:01:44.708 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:01:44.709 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:02:20.332 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:02:20.332 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:02:52.104 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:02:52.104 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:02:56.483 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:02:56.483 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:14:10.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 22:14:10.140 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-27 22:14:14.944 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 34036 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-27 22:14:14.946 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-27 22:14:14.976 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-27 22:14:14.977 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-27 22:14:16.097 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-27 22:14:16.105 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 22:14:16.106 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-27 22:14:16.106 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-27 22:14:16.141 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-27 22:14:16.142 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1165 ms
+ 2025-06-27 22:14:17.002 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-27 22:14:17.017 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-27 22:14:17.033 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-27 22:14:17.039 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 2.41 seconds (process running for 3.172)
+ 2025-06-27 22:15:10.247 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-27 22:15:10.248 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-27 22:15:10.248 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-27 22:15:10.271 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:15:10.271 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:15:10.295 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:15:10.295 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:15:10.300 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:15:10.300 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:15:10.301 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:15:10.301 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:15:34.353 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 22:15:34.394 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-27 22:15:34.718 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@754330cd
+ 2025-06-27 22:15:34.720 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-27 22:15:34.931 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:15:34.931 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:15:40.565 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:15:40.657 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:15:41.134 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.196 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.230 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.273 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.312 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.349 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.379 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:41.402 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:15:42.844 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:15:42.844 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:21:24.419 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:21:24.419 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:21:30.295 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:21:30.322 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:21:31.634 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:21:31.636 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:22:01.126 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-27 22:22:01.127 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:23:50.938 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:23:51.648 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:23:51.648 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:24:00.598 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:24:00.599 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:24:00.693 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:24:00.695 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:26:26.685 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-27 22:26:26.686 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:26:26.686 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:26:26.692 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:26:43.613 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:26:43.613 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:26:51.018 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:26:51.018 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:27:25.543 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:27:25.543 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:27:49.384 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.499 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.527 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.569 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.596 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.622 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.649 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.672 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:27:49.890 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:27:49.910 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:27:51.662 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:27:51.665 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:30:56.315 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:30:56.316 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:31:40.353 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-27 22:31:40.357 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 22:31:40.422 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:31:40.425 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/get_stu_info
+ 2025-06-27 22:31:40.426 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:31:40.430 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:34:20.559 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:34:20.559 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:34:20.661 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:34:50.176 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:34:50.176 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:34:54.169 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:34:54.169 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:34:57.276 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:34:57.278 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:35:33.670 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:35:53.186 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:08.055 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:11.633 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:18.126 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-27 22:36:18.129 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-27 22:36:18.332 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:28.909 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:39.576 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:49.596 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:36:53.071 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:37:52.705 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:37:59.501 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:38:02.852 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:38:09.479 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:38:26.549 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/all_score
+ 2025-06-27 22:38:26.552 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:26.557 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:38:26.633 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:38:27.683 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:38:27.713 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:38:28.044 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.046 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.050 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.085 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.087 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.090 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.116 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.117 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.119 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.149 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.150 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.153 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.171 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.172 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.177 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.222 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.222 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.228 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.256 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.258 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.261 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.278 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/course
+ 2025-06-27 22:38:28.279 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:28.282 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.900 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.931 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.970 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:28.991 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:29.014 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:29.033 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:29.056 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:29.078 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/course
+ 2025-06-27 22:38:29.909 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:38:29.909 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:38:35.364 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-27 22:38:52.550 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-27 22:38:52.601 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-27 22:38:52.603 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/get_stu_info
+ 2025-06-27 22:38:54.981 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:38:55.010 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/all_score
+ 2025-06-27 22:38:58.295 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/score
+ 2025-06-27 22:38:58.296 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:38:58.299 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/score
+ 2025-06-27 22:39:00.470 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/score
+ 2025-06-27 22:39:00.471 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:39:00.474 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/score
+ 2025-06-27 22:39:02.203 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/score
+ 2025-06-27 22:39:02.204 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-27 22:39:02.206 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/score
+ 2025-06-27 22:40:45.386 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-27 22:40:55.410 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

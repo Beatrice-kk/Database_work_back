@@ -1,0 +1,276 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007fff7fe41b79, pid=71364, tid=78364
+#
+# JRE version:  (21.0.7+6) (build )
+# Java VM: OpenJDK 64-Bit Server VM (21.0.7+6-LTS, mixed mode, sharing, tiered, compressed class ptrs, unknown gc, windows-amd64)
+# Problematic frame:
+# C  [jimage.dll+0x1b79]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: 
+
+Host: 13th Gen Intel(R) Core(TM) i7-13700H, 20 cores, 15G,  Windows 11 , 64 bit Build 22621 (10.0.22621.5262)
+Time: Sun Jun 29 14:51:39 2025  Windows 11 , 64 bit Build 22621 (10.0.22621.5262) elapsed time: 0.008553 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+Stack: [0x000000b68cd00000,0x000000b68ce00000],  sp=0x000000b68cdfdd30,  free space=1015k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [jimage.dll+0x1b79]
+C  [jimage.dll+0x1d03]
+C  [jimage.dll+0x25c9]
+V  [jvm.dll+0x21d932]
+V  [jvm.dll+0xc9770]
+V  [jvm.dll+0x85a57c]
+V  [jvm.dll+0x45080e]
+V  [jvm.dll+0x452451]
+C  [jli.dll+0x5278]
+C  [ucrtbase.dll+0x29333]
+C  [KERNEL32.DLL+0x1259d]
+C  [ntdll.dll+0x5af58]
+
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x0000000000001fe4
+
+
+Registers:
+RAX=0x00000000000007b5, RBX=0x000000b68cdfde21, RCX=0x00007fff7fe46000, RDX=0x00000000000007f2
+RSP=0x000000b68cdfdd30, RBP=0x000000b68cdfde20, RSI=0x0000000000007622, RDI=0x000000b68cdfde20
+R8 =0x00007fff7fe44298, R9 =0x000000000000001c, R10=0x00007fff6d680000, R11=0x00007fff7fe46000
+R12=0x0000000000000000, R13=0x000000b68cdff8b0, R14=0x000000b68cdfee90, R15=0x00007ffeed3970f8
+RIP=0x00007fff7fe41b79, EFLAGS=0x0000000000010247
+
+XMM[0]=0x0000000000000000 0x0000000000000000
+XMM[1]=0x2f6d762f6c616e72 0x65746e692f6b646a
+XMM[2]=0x736e6f6974706f2f 0x6d762f6c616e7265
+XMM[3]=0x0000000000000000 0x0000000000000000
+XMM[4]=0x0000000000000000 0x0000000000000000
+XMM[5]=0x0000000000000000 0x0000000000000000
+XMM[6]=0x0000000000000000 0x0000000000000000
+XMM[7]=0x0000000000000000 0x0000000000000000
+XMM[8]=0x0000000000000000 0x0000000000000000
+XMM[9]=0x0000000000000000 0x0000000000000000
+XMM[10]=0x0000000000000000 0x0000000000000000
+XMM[11]=0x0000000000000000 0x0000000000000000
+XMM[12]=0x0000000000000000 0x0000000000000000
+XMM[13]=0x0000000000000000 0x0000000000000000
+XMM[14]=0x0000000000000000 0x0000000000000000
+XMM[15]=0x0000000000000000 0x0000000000000000
+  MXCSR=0x00001f80
+
+
+Top of Stack: (sp=0x000000b68cdfdd30)
+0x000000b68cdfdd30:   0076002e005c006e 0064006f00630073
+0x000000b68cdfdd40:   00780065005c0065 0073006e00650074
+0x000000b68cdfdd50:   000002754294d370 00007fff7fe41d03
+0x000000b68cdfdd60:   000000000000000b 000002754294d370
+0x000000b68cdfdd70:   0000000000000000 0000000000000000
+0x000000b68cdfdd80:   0000000000000000 0000000000000000
+0x000000b68cdfdd90:   0000000000000000 0000000000000000
+0x000000b68cdfdda0:   0000000000000000 0000000000000000
+0x000000b68cdfddb0:   0000000000000000 0000000000000000
+0x000000b68cdfddc0:   0000be5fb1cd66a3 0000000000000000
+0x000000b68cdfddd0:   00007ffeed374ae0 0000000000000017
+0x000000b68cdfdde0:   000002754294d370 000000b68cdfee90
+0x000000b68cdfddf0:   000000000000000b 00007fff7fe425c9
+0x000000b68cdfde00:   0000000000000000 0000000000000000
+0x000000b68cdfde10:   0000000000000000 0000000000000000
+0x000000b68cdfde20:   61622e6176616a2f 692f6b646a2f6573
+0x000000b68cdfde30:   2f6c616e7265746e 6f6974706f2f6d76
+0x000000b68cdfde40:   000000000000736e 0000000000000000
+0x000000b68cdfde50:   0000000000000000 0000000000000000
+0x000000b68cdfde60:   0000000000000000 0000000000000000
+0x000000b68cdfde70:   0000000000000000 0000000000000000
+0x000000b68cdfde80:   0000000000000000 0000000000000000
+0x000000b68cdfde90:   0000000000000000 0000000000000000
+0x000000b68cdfdea0:   0000000000000000 0000000000000000
+0x000000b68cdfdeb0:   0000000000000000 0000000000000000
+0x000000b68cdfdec0:   0000000000000000 0000000000000000
+0x000000b68cdfded0:   0000000000000000 0000000000000000
+0x000000b68cdfdee0:   0000000000000000 0000000000000000
+0x000000b68cdfdef0:   0000000000000000 0000000000000000
+0x000000b68cdfdf00:   0000000000000000 0000000000000000
+0x000000b68cdfdf10:   0000000000000000 0000000000000000
+0x000000b68cdfdf20:   0000000000000000 0000000071000071 
+
+Instructions: (pc=0x00007fff7fe41b79)
+0x00007fff7fe41a79:   48 85 c9 74 1d 80 3d 8b 45 00 00 00 74 06 48 8b
+0x00007fff7fe41a89:   53 18 eb 04 48 8b 53 40 e8 8e 0e 00 00 48 83 63
+0x00007fff7fe41a99:   48 00 8b 4b 0c 83 f9 ff 74 09 e8 c4 0c 00 00 83
+0x00007fff7fe41aa9:   4b 0c ff 48 8b 4b 70 48 85 c9 74 0f ba 10 00 00
+0x00007fff7fe41ab9:   00 e8 e5 0e 00 00 48 83 63 70 00 48 83 c4 20 5b
+0x00007fff7fe41ac9:   c3 cc cc 40 53 48 83 ec 20 48 8b d9 48 8d 0d 44
+0x00007fff7fe41ad9:   47 00 00 e8 93 0c 00 00 83 6b 08 01 75 24 48 8b
+0x00007fff7fe41ae9:   d3 48 8d 0d 27 45 00 00 e8 1a 08 00 00 48 8b cb
+0x00007fff7fe41af9:   e8 d6 fe ff ff ba 78 00 00 00 48 8b cb e8 99 0e
+0x00007fff7fe41b09:   00 00 48 8d 0d 0e 47 00 00 48 83 c4 20 5b e9 60
+0x00007fff7fe41b19:   0c 00 00 48 89 5c 24 08 48 89 74 24 10 57 48 83
+0x00007fff7fe41b29:   ec 20 41 8b f1 4d 8b c8 48 8b fa 4c 8b d9 4d 85
+0x00007fff7fe41b39:   c0 74 73 85 f6 74 6f 44 8a 12 48 8d 5a 01 48 8b
+0x00007fff7fe41b49:   d3 b8 93 01 00 01 eb 12 69 c0 93 01 00 01 41 0f
+0x00007fff7fe41b59:   b6 ca 44 8a 12 33 c1 48 ff c2 45 84 d2 75 e9 4d
+0x00007fff7fe41b69:   8b 03 33 d2 0f ba f0 1f 49 8b cb f7 f6 48 63 d2
+0x00007fff7fe41b79:   41 8b 14 91 41 ff 50 08 85 c0 7e 24 8a 0f eb 10
+0x00007fff7fe41b89:   69 c0 93 01 00 01 0f b6 c9 33 c1 8a 0b 48 ff c3
+0x00007fff7fe41b99:   84 c9 75 ec 0f ba f0 1f 33 d2 f7 f6 8b c2 eb 09
+0x00007fff7fe41ba9:   79 04 f7 d0 eb 03 83 c8 ff 48 8b 5c 24 30 48 8b
+0x00007fff7fe41bb9:   74 24 38 48 83 c4 20 5f c3 cc cc 48 89 5c 24 08
+0x00007fff7fe41bc9:   48 89 74 24 10 57 48 83 ec 20 48 8b f1 48 8d 0d
+0x00007fff7fe41bd9:   43 46 00 00 e8 92 0b 00 00 33 ff 39 3d 2e 44 00
+0x00007fff7fe41be9:   00 76 24 48 8b 05 2d 44 00 00 48 8b d6 48 8b 1c
+0x00007fff7fe41bf9:   f8 48 8b 0b e8 68 1e 00 00 85 c0 74 2b ff c7 3b
+0x00007fff7fe41c09:   3d 0a 44 00 00 72 dc 33 db 48 8d 0d 07 46 00 00
+0x00007fff7fe41c19:   e8 5e 0b 00 00 48 8b 74 24 38 48 8b c3 48 8b 5c
+0x00007fff7fe41c29:   24 30 48 83 c4 20 5f c3 ff 43 08 eb dc cc cc 48
+0x00007fff7fe41c39:   89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 48 8b
+0x00007fff7fe41c49:   d9 48 8b f2 48 8b 49 10 49 8b f8 8b 53 30 48 8b
+0x00007fff7fe41c59:   01 ff 50 20 4c 8b 43 50 48 8b d6 48 8b 4b 10 44
+0x00007fff7fe41c69:   8b c8 e8 ac fe ff ff 83 f8 ff 74 38 48 8b 4b 10 
+
+
+
+---------------  P R O C E S S  ---------------
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 1.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+<Not initialized>
+
+
+Dynamic libraries:
+0x00007ff7618f0000 - 0x00007ff7618fe000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\java.exe
+0x00007fffac790000 - 0x00007fffac9a7000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007fffaa8f0000 - 0x00007fffaa9b4000 	C:\Windows\System32\KERNEL32.DLL
+0x00007fffa9880000 - 0x00007fffa9c53000 	C:\Windows\System32\KERNELBASE.dll
+0x00007fffa3e50000 - 0x00007fffa3ee7000 	C:\Windows\SYSTEM32\apphelp.dll
+0x00007fffa9dd0000 - 0x00007fffa9ee1000 	C:\Windows\System32\ucrtbase.dll
+0x00007fff6d680000 - 0x00007fff6d69e000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\VCRUNTIME140.dll
+0x00007fff6d300000 - 0x00007fff6d318000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\jli.dll
+0x00007fffaa9c0000 - 0x00007fffaab71000 	C:\Windows\System32\USER32.dll
+0x00007fffa9fb0000 - 0x00007fffa9fd6000 	C:\Windows\System32\win32u.dll
+0x00007fffab740000 - 0x00007fffab769000 	C:\Windows\System32\GDI32.dll
+0x00007fff95e10000 - 0x00007fff960ab000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.5262_none_2712bde373830908\COMCTL32.dll
+0x00007fffaa080000 - 0x00007fffaa1a2000 	C:\Windows\System32\gdi32full.dll
+0x00007fffa9fe0000 - 0x00007fffaa07a000 	C:\Windows\System32\msvcp_win.dll
+0x00007fffaa7f0000 - 0x00007fffaa897000 	C:\Windows\System32\msvcrt.dll
+0x00007fffaafe0000 - 0x00007fffab011000 	C:\Windows\System32\IMM32.DLL
+0x00007fff806c0000 - 0x00007fff806cc000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\vcruntime140_1.dll
+0x00007fff57260000 - 0x00007fff572ed000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\msvcp140.dll
+0x00007ffeec990000 - 0x00007ffeed720000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\server\jvm.dll
+0x00007fffaaf20000 - 0x00007fffaafd1000 	C:\Windows\System32\ADVAPI32.dll
+0x00007fffaabf0000 - 0x00007fffaac97000 	C:\Windows\System32\sechost.dll
+0x00007fffaa3f0000 - 0x00007fffaa418000 	C:\Windows\System32\bcrypt.dll
+0x00007fffab020000 - 0x00007fffab134000 	C:\Windows\System32\RPCRT4.dll
+0x00007fffaa4a0000 - 0x00007fffaa511000 	C:\Windows\System32\WS2_32.dll
+0x00007fffa86f0000 - 0x00007fffa873d000 	C:\Windows\SYSTEM32\POWRPROF.dll
+0x00007fffa1c20000 - 0x00007fffa1c54000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007fff95a50000 - 0x00007fff95a5a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007fffa86b0000 - 0x00007fffa86c3000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x00007fffa8970000 - 0x00007fffa8988000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007fff7fe40000 - 0x00007fff7fe4a000 	c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\jimage.dll
+0x00007fffa6ff0000 - 0x00007fffa7222000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007fffac0f0000 - 0x00007fffac483000 	C:\Windows\System32\combase.dll
+0x00007fffab770000 - 0x00007fffab847000 	C:\Windows\System32\OLEAUT32.dll
+0x00007fff972c0000 - 0x00007fff972f2000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007fffaa370000 - 0x00007fffaa3eb000 	C:\Windows\System32\bcryptPrimitives.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.5262_none_2712bde373830908;c:\Users\obiwan\.vscode\extensions\redhat.java-1.43.0-win32-x64\jre\21.0.7-win32-x86_64\bin\server
+
+VM Arguments:
+java_command: <unknown>
+java_class_path (initial): <not set>
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags foldmultilines=false
+ #1: stderr all=off uptime,level,tags foldmultilines=false
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk-22
+PATH=E:\VMware\Vm\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\mingw64\bin;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-22\bin;C:\Program Files (x86)\ZeroTier\One\;D:\tailscale\;C:\Program Files\apache-maven-3.9.9\bin;D:\NodeJS\;D:\;C:\Program Files\Tailscale\;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;;;D:\Program Files\Git\cmd;d:\Trae\bin;C:\Users\obiwan\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\obiwan\AppData\Local\Programs\Python\Python38-32\;C:\Users\obiwan\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\obiwan\AppData\Local\Programs\Python\Python38\;C:\Users\obiwan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\obiwan\AppData\Local\Programs\Python\Python39\;C:\Users\obiwan\AppData\Local\Microsoft\WindowsApps;D:\PyCharm Community Edition 2024.1.4\bin;E:\Anaconda3;E:\Anaconda3\Scripts;E:\Anaconda3\Library\bin;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\opencv_cmake\x64\mingw\bin;D:\opencv\build\x64\vc16\bin;C:\Users\obiwan\.dotnet\tools;D:\PyCharm 2024.1.4\bin;E:\Project\yolo\TensorRT-8.6.1.6\lib;E:\Project\yolo\TensorRT-8.6.1.6\bin;E:\Project\yolo\TensorRT-8.5.3.1\bin;E:\Project\yolo\TensorRT-8.5.3.1\lib;C:\Users\obiwan\AppData\Local\Muse Hub\lib;D:\Microsoft VS Code\bin;C:\Program Files\Common Files\SOLIDWORKS Shared\swdocumentmgr.dll;D:\IntelliJ IDEA Community Edition 2024.2.2\bin;D:\DevEco Studio\bin;D:\QT\5.14.2\mingw73_64\bin;D:\Idea\IntelliJ IDEA 2023.2\bin;C:\Users\obiwan\AppData\Roaming\npm;E:\web_develop\nginx-1.22.0;E:\web_develop\apache-tomcat-9.0.27\bin;D:\QT\Tools\mingw730_64;C:\Program Files\CMake\bin;D:\opencv-3.4.12\opencv\build\install\x64\mingw\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\JetBrains Rider 2024.3\bin;D:\texlive\2024\bin\windows;D:\cursor\resources\app\bin;D:\Git\mingw64\bin\git.exe;D:\Git
+USERNAME=obiwan
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+TMP=C:\Users\obiwan\AppData\Local\Temp
+TEMP=C:\Users\obiwan\AppData\Local\Temp
+
+
+
+
+Periodic native trim disabled
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 11 , 64 bit Build 22621 (10.0.22621.5262)
+OS uptime: 2 days 21:14 hours
+
+CPU: total 20 (initial active 0) 
+Processor Information for processor 0
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 1
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 2
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 3
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 4
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 5
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 6
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 7
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 8
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 9
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 10
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 11
+  Max Mhz: 2400, Current Mhz: 2400, Mhz Limit: 2400
+Processor Information for processor 12
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+Processor Information for processor 13
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+Processor Information for processor 14
+  Max Mhz: 2400, Current Mhz: 1500, Mhz Limit: 1800
+Processor Information for processor 15
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+Processor Information for processor 16
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+Processor Information for processor 17
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+Processor Information for processor 18
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+Processor Information for processor 19
+  Max Mhz: 2400, Current Mhz: 1800, Mhz Limit: 1800
+
+Memory: 4k page, system-wide physical 16087M (848M free)
+TotalPageFile size 46807M (AvailPageFile size 4M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 3M, peak: 3M
+
+vm_info: OpenJDK 64-Bit Server VM (21.0.7+6-LTS) for windows-amd64 JRE (21.0.7+6-LTS), built on 2025-04-15T00:00:00Z by "admin" with MS VC++ 17.7 (VS2022)
+
+END.

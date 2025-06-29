@@ -1,0 +1,198 @@
+ 2024-07-11 00:41:51.956 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:41:53.725 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:41:54.745 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:07.404 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:10.504 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:11.715 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:15.655 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:20.446 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:21.625 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:22.765 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:23.517 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:24.667 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:42:32.767 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 00:42:42.546 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:43:42.808 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: ""
+ 2024-07-11 00:43:52.735 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: ""
+ 2024-07-11 00:55:27.870 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 00:56:59.764 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 01:00:20.610 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 01:00:40.307 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 01:02:06.599 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:03:39.297 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:03:40.310 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:08:48.257 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 01:23:27.861 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:25:53.294 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:26:37.188 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:27:15.137 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:27:33.514 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:29:56.378 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:32:24.617 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:33:42.891 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 01:38:23.704 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 01:38:49.258 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:38:50.746 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:38:50.924 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:38:51.087 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:18.664 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:21.722 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:21.976 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:36.099 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:39.928 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:40.204 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:39:52.058 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:40:01.179 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 01:40:05.641 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 02:10:51.206 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 02:11:05.199 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 02:13:15.476 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:18:53.200 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:31:01.052 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:31:35.817 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 02:31:38.054 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'course_id' for method parameter type String is not present
+ 2024-07-11 02:37:20.401 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 02:40:22.120 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:41:06.075 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:41:45.487 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:42:46.495 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:44:34.535 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:45:18.503 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:45:33.071 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-11 02:47:49.512 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call insert_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 02:47:51.334 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call insert_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 02:47:51.949 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call insert_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 02:47:52.502 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call insert_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 02:48:07.829 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call insert_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 02:48:28.448 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 02:49:06.548 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call insert_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "insert_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 03:00:41.380 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 03:01:12.737 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: function "update_score" doesn't exist 
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: function "update_score" doesn't exist 
+; bad SQL grammar []
+ 2024-07-11 03:02:06.061 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 03:36:58.391 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_name03" of relation "chenwk_admin03" does not exist
+  在位置：PL/pgSQL function insert_admin(bigint,character varying,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/AdminMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: call insert_admin(?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_name03" of relation "chenwk_admin03" does not exist
+  在位置：PL/pgSQL function insert_admin(bigint,character varying,character varying) line 3 at SQL statement
+; bad SQL grammar []
+ 2024-07-11 03:40:09.253 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_role_id03" of relation "chenwk_admin03" does not exist
+  在位置：PL/pgSQL function insert_admin(bigint,character varying,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/AdminMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: call insert_admin(?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_role_id03" of relation "chenwk_admin03" does not exist
+  在位置：PL/pgSQL function insert_admin(bigint,character varying,character varying) line 3 at SQL statement
+; bad SQL grammar []
+ 2024-07-11 03:40:46.609 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_roled03" of relation "chenwk_admin03" does not exist
+  在位置：PL/pgSQL function insert_admin(bigint,character varying,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/AdminMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: call insert_admin(?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_roled03" of relation "chenwk_admin03" does not exist
+  在位置：PL/pgSQL function insert_admin(bigint,character varying,character varying) line 3 at SQL statement
+; bad SQL grammar []
+ 2024-07-11 04:04:17.164 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-11 04:04:19.634 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-11 04:04:25.006 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-11 04:05:38.174 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-11 04:05:59.465 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Optional int parameter 'page' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+ 2024-07-11 04:07:15.818 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Request method 'PUT' is not supported
+ 2024-07-11 04:07:15.819 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Request method 'PUT' is not supported
+ 2024-07-11 04:07:16.878 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Request method 'PUT' is not supported
+ 2024-07-11 04:07:16.878 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Request method 'PUT' is not supported
+ 2024-07-11 04:18:34.682 [http-nio-8888-exec-13] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.683 [http-nio-8888-exec-12] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.683 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.684 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.684 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.684 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.684 [http-nio-8888-exec-15] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.684 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.686 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.686 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.687 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.687 [http-nio-8888-exec-14] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.687 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.688 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 04:18:34.688 [http-nio-8888-exec-11] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 14:44:04.502 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:01:59.353 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:05:04.274 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:07:52.832 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+ 2024-07-11 23:07:56.595 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+ 2024-07-11 23:08:28.861 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+ 2024-07-11 23:09:14.705 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:11:57.000 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:12:20.090 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:12:53.521 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-11 23:22:55.418 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:22:56.332 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:23:05.747 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:23:05.891 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:23:06.039 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:23:06.146 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:23:18.579 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:23:43.479 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:24:33.317 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:24:45.642 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:24:46.254 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:24:46.412 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:24:46.521 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-11 23:25:15.936 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file

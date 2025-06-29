@@ -1,0 +1,214 @@
+ 2025-06-28 10:40:12.776 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 10:40:13.514 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:08:59.907 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:09:05.850 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:09:14.927 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:09:28.060 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:13:46.477 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:13:57.563 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:13:58.348 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:14:44.382 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:15:15.354 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:15:21.194 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, exam_date FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：20
+  在位置：referenced column: exam_date
+; bad SQL grammar []
+ 2025-06-28 11:15:34.131 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:15:34.850 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:16:08.067 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:16:08.826 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:16:46.183 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_exam_data03" does not exist
+  位置：20
+  在位置：referenced column: cwk_exam_data03
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, cwk_exam_data03 FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_exam_data03" does not exist
+  位置：20
+  在位置：referenced column: cwk_exam_data03
+; bad SQL grammar []
+ 2025-06-28 11:16:58.137 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_exam_data03" does not exist
+  位置：20
+  在位置：referenced column: cwk_exam_data03
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, cwk_exam_data03 FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "cwk_exam_data03" does not exist
+  位置：20
+  在位置：referenced column: cwk_exam_data03
+; bad SQL grammar []
+ 2025-06-28 11:17:45.509 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:17:46.248 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:17:56.016 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：63
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT cwk_name03, cwk_exam_date03 FROM chenwk_course03 WHERE exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column "exam_date" does not exist
+  位置：63
+; bad SQL grammar []
+ 2025-06-28 11:18:41.336 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:18:42.078 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:22:19.308 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column c.exam_date does not exist
+  位置：153
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.CourseMapper.getStudentExams-Inline
+### The error occurred while setting parameters
+### SQL: SELECT c.cwk_name03, c.cwk_exam_date03 FROM chenwk_score03 s JOIN chenwk_course03 c ON s.cwk_course_id03 = c.cwk_id03 WHERE s.cwk_student_id03 = ? AND c.exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column c.exam_date does not exist
+  位置：153
+; bad SQL grammar []
+ 2025-06-28 11:22:59.189 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column c.exam_date does not exist
+  位置：153
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.CourseMapper.getStudentExams-Inline
+### The error occurred while setting parameters
+### SQL: SELECT c.cwk_name03, c.cwk_exam_date03 FROM chenwk_score03 s JOIN chenwk_course03 c ON s.cwk_course_id03 = c.cwk_id03 WHERE s.cwk_student_id03 = ? AND c.exam_date IS NOT NULL
+### Cause: org.postgresql.util.PSQLException: ERROR: column c.exam_date does not exist
+  位置：153
+; bad SQL grammar []
+ 2025-06-28 11:30:17.645 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:30:18.474 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 11:58:36.271 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 11:58:37.065 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 12:52:04.774 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 12:52:04.774 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 12:52:04.774 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 12:52:04.775 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 12:52:04.775 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 12:52:04.782 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 12:52:04.997 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Cannot invoke "cn.lonesome.sms.model.entity.Admin.getId()" because "admin" is null
+ 2025-06-28 13:45:31.847 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:31.900 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:32.441 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:33.195 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:33.232 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:33.647 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:34.077 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:34.078 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:34.079 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:45:34.079 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:31.273 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:31.617 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:34.434 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:35.024 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:35.499 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:36.003 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:36.048 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:47:36.428 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 13:52:40.591 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 14:23:34.158 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 14:23:34.917 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 14:25:51.459 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2025-06-28 14:25:55.455 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2025-06-28 14:26:04.554 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2025-06-28 14:26:58.668 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 14:26:59.427 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 14:41:45.805 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 14:41:46.660 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 17:05:53.059 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 17:05:53.101 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 17:05:53.623 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 20:04:22.748 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 20:04:23.772 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 20:04:24.202 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: For input string: "302023325005"
+ 2025-06-28 21:29:59.067 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/schoolInfo.
+ 2025-06-28 21:30:04.111 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/schoolInfo.
+ 2025-06-28 21:34:21.231 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: No static resource api/admin/schoolInfo.
+ 2025-06-28 21:37:54.229 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+ 2025-06-28 21:37:55.020 [restartedMain] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2025-06-28 22:45:50.140 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null
+ 2025-06-28 22:45:50.140 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'id' for method parameter type Integer is present but converted to null

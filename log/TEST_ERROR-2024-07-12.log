@@ -1,0 +1,414 @@
+ 2024-07-12 02:08:16.921 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-12 02:09:58.173 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-12 02:11:01.563 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-12 02:15:15.813 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-12 02:15:16.102 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: Required request parameter 'student_id' for method parameter type long is not present
+ 2024-07-12 02:51:34.263 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:01:04.160 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-12 03:13:43.775 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-12 03:16:51.102 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_course03" violates check constraint "chk_course_attribute"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkourse03(
+        cwk_id03, cwk_name03, cwk_term03, cwk_college_id03, cwk_examination_method03, cwk_credit03, cwk_hours03, cwk_attribute03, cwk_year03
+    )
+    VALUES (new_id, new_name, term, (SELECT cwk_id03 FROM chenwk_college03 WHERE cwk_name03 = college_name), exam_method, credit, hours, new_attribute, new_year)"
+PL/pgSQL function insert_course(bigint,character varying,character varying,character varying,character varying,double precision,integer,character varying,integer) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/CourseMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.CourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: call insert_course(?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_course03" violates check constraint "chk_course_attribute"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkourse03(
+        cwk_id03, cwk_name03, cwk_term03, cwk_college_id03, cwk_examination_method03, cwk_credit03, cwk_hours03, cwk_attribute03, cwk_year03
+    )
+    VALUES (new_id, new_name, term, (SELECT cwk_id03 FROM chenwk_college03 WHERE cwk_name03 = college_name), exam_method, credit, hours, new_attribute, new_year)"
+PL/pgSQL function insert_course(bigint,character varying,character varying,character varying,character varying,double precision,integer,character varying,integer) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_course03" violates check constraint "chk_course_attribute"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkourse03(
+        cwk_id03, cwk_name03, cwk_term03, cwk_college_id03, cwk_examination_method03, cwk_credit03, cwk_hours03, cwk_attribute03, cwk_year03
+    )
+    VALUES (new_id, new_name, term, (SELECT cwk_id03 FROM chenwk_college03 WHERE cwk_name03 = college_name), exam_method, credit, hours, new_attribute, new_year)"
+PL/pgSQL function insert_course(bigint,character varying,character varying,character varying,character varying,double precision,integer,character varying,integer) line 3 at SQL statement
+ 2024-07-12 03:29:56.360 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:30:06.909 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:19.024 [http-nio-8888-exec-5] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:19.813 [http-nio-8888-exec-4] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:20.476 [http-nio-8888-exec-2] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:20.805 [http-nio-8888-exec-7] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:20.959 [http-nio-8888-exec-6] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:21.101 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:21.239 [http-nio-8888-exec-10] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:21.380 [http-nio-8888-exec-3] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:21.516 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 03:31:21.668 [http-nio-8888-exec-9] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+### The error may exist in cn/lonesome/sms/mapper/ScoreMapper.java (best guess)
+### The error may involve cn.lonesome.sms.mapper.ScoreMapper.insertScore-Inline
+### The error occurred while setting parameters
+### SQL: call update_score(?, ?, ?, ?, ?)
+### Cause: org.postgresql.util.PSQLException: ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+; ERROR: new row for relation "chenwk_score03" violates check constraint "chk_score"
+  详细：N/A
+  在位置：SQL statement "INSERT INTO zhchenwkcore03(
+        cwk_student_id03, cwk_course_id03, cwk_teacher_id03, cwk_score03, cwk_term03
+    )
+    VALUES (student_id, course_id, teacher_id, score, term)
+    ON DUPLICATE KEY UPDATE cwk_score03 = score"
+PL/pgSQL function update_score(bigint,character varying,bigint,double precision,character varying) line 3 at SQL statement
+ 2024-07-12 09:22:09.693 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
+ 2024-07-12 09:27:13.338 [http-nio-8888-exec-1] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-12 09:27:14.784 [http-nio-8888-exec-8] ERROR cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200500, 错误信息: 系统异常, 错误描述: null
+ 2024-07-12 09:27:31.057 [main] ERROR c.baomidou.mybatisplus.core.MybatisConfiguration - mapper[cn.lonesome.sms.mapper.ScoreMapper.selectCountByTeacherId] is ignored, because it exists, maybe from xml file
