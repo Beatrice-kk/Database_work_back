@@ -52,6 +52,15 @@ public class AdminService {
         adminMapper.changePassword(username, newPassword);
     }
 
+
+    public void changePasswordWithoutLogin(Integer username, String newPassword) {
+
+        adminMapper.changePassword(username, newPassword);
+    }
+
+
+
+
     public void insert(Integer id, String password, String role) {
         if (id == null || password == null || role == null || !EnumUtils.isValidEnum(Admin.Role.class, role)) {
             throw new CustomException(ErrorCode.PARAM_ERROR);

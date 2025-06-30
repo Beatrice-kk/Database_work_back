@@ -68,7 +68,7 @@ public class ScoreService {
         int offset = (page - 1) * size;
         return PaginationDto.<Score>builder()
                 .data(scoreMapper.selectByTeacherId(teacherId, className, courseId, offset, size))
-                .total(scoreMapper.selectCountByTeacherId(teacherId, className, courseId))
+                .total(scoreMapper.selectCountByTeacherIdAndCourseAndClass(teacherId, className, courseId))
                 .page(page)
                 .size(size)
                 .build();

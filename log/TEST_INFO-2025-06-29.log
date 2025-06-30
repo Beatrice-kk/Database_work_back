@@ -1993,3 +1993,411 @@
  2025-06-29 17:06:10.512 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
  2025-06-29 17:06:10.517 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 0.589 seconds (process running for 3419.655)
  2025-06-29 17:06:10.517 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2025-06-29 18:44:29.945 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 18:44:29.945 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 18:44:29.945 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-29 18:44:29.946 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-29 18:44:29.946 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/schoolInfo
+ 2025-06-29 18:44:29.947 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 18:44:29.947 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 18:44:29.954 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 18:44:29.955 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 18:44:29.955 [http-nio-8888-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+ 2025-06-29 18:44:30.074 [http-nio-8888-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@20c753de
+ 2025-06-29 18:44:30.074 [http-nio-8888-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+ 2025-06-29 18:46:30.655 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+ 2025-06-29 18:46:30.732 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+ 2025-06-29 18:58:04.443 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 26396 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 18:58:04.445 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 18:58:04.471 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 18:58:04.471 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 18:58:05.244 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 18:58:05.251 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 18:58:05.252 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 18:58:05.253 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 18:58:05.290 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 18:58:05.290 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 819 ms
+ 2025-06-29 18:58:06.121 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 18:58:06.132 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 18:58:06.144 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 18:58:06.150 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.94 seconds (process running for 2.518)
+ 2025-06-29 18:58:28.426 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 18:58:28.426 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 18:58:28.426 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-29 18:58:28.446 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-29 18:58:28.453 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 18:58:30.841 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-29 18:58:30.846 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-29 18:58:30.870 [http-nio-8888-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-29 18:58:31.138 [http-nio-8888-exec-7] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12b1dfef
+ 2025-06-29 18:58:31.139 [http-nio-8888-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-29 18:58:31.324 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-29 18:58:31.325 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/stu_info
+ 2025-06-29 18:58:31.327 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 18:58:31.327 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 18:58:31.332 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/stu_info
+ 2025-06-29 18:58:31.332 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-29 18:58:40.580 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 18:58:40.612 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200102, 错误信息: 用户不存在, 错误描述: null
+ 2025-06-29 18:58:46.895 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 18:59:53.817 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 19:10:17.746 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/login
+ 2025-06-29 19:10:17.748 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 19:10:18.015 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/exams_teacher
+ 2025-06-29 19:10:18.016 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/teacher_info
+ 2025-06-29 19:10:18.017 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 19:10:18.017 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 19:10:18.020 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:10:18.021 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:10:46.597 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:10:46.597 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:29:05.872 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:29:05.872 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:29:25.058 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:29:25.059 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:29:52.185 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:29:52.185 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:30:32.713 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:30:32.714 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:30:32.780 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:30:32.780 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:30:46.006 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:30:46.006 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:31:55.465 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:31:55.465 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:32:08.393 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 19:32:08.393 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:51:03.644 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/login
+ 2025-06-29 19:51:03.649 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 19:51:03.891 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/exams_teacher
+ 2025-06-29 19:51:03.892 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/teacher_info
+ 2025-06-29 19:51:03.904 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 19:51:03.904 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 19:51:03.907 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 19:51:03.907 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:06:58.873 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:06:58.875 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:06:58.881 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:07:02.409 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:08:04.170 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-29 20:08:04.176 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-29 20:08:07.941 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 31728 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 20:08:07.942 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 20:08:07.967 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 20:08:07.968 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 20:08:08.701 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 20:08:08.707 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:08:08.708 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 20:08:08.708 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 20:08:08.760 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 20:08:08.761 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 793 ms
+ 2025-06-29 20:08:09.608 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 20:08:09.619 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:08:09.630 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 20:08:09.638 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.942 seconds (process running for 2.511)
+ 2025-06-29 20:08:14.120 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 20:08:14.120 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 20:08:14.121 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-29 20:08:14.140 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:08:14.165 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:08:34.376 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:08:34.378 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:19:03.827 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 23232 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 20:19:03.832 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 20:19:03.891 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 20:19:03.892 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 20:19:05.117 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 20:19:05.127 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:19:05.128 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 20:19:05.128 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 20:19:05.173 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 20:19:05.174 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1281 ms
+ 2025-06-29 20:19:06.141 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 20:19:06.152 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:19:06.162 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 20:19:06.169 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 2.944 seconds (process running for 3.573)
+ 2025-06-29 20:19:24.492 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 20:19:24.493 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 20:19:24.494 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-29 20:19:24.513 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:19:24.577 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-29 20:19:24.841 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c1e7c40
+ 2025-06-29 20:19:24.842 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-29 20:19:34.900 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-29 20:19:34.904 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:19:34.951 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200102, 错误信息: 用户不存在, 错误描述: null
+ 2025-06-29 20:19:39.891 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:19:39.954 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:19:46.164 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:19:46.181 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:19:50.684 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:19:50.701 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:22:20.043 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/login
+ 2025-06-29 20:22:20.046 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:22:20.128 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/exams_teacher
+ 2025-06-29 20:22:20.130 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/teacher_info
+ 2025-06-29 20:22:20.133 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:22:20.133 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:22:20.140 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:22:20.140 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:22:32.635 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/password
+ 2025-06-29 20:22:32.636 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:22:32.640 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/password
+ 2025-06-29 20:22:32.659 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:22:53.143 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/password
+ 2025-06-29 20:22:53.158 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:24:13.013 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/password
+ 2025-06-29 20:24:13.028 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:25:19.967 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-29 20:25:20.071 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-29 20:25:56.259 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 5292 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 20:25:56.261 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 20:25:56.299 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 20:25:56.299 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 20:25:57.124 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 20:25:57.131 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:25:57.132 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 20:25:57.133 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 20:25:57.170 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 20:25:57.170 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 871 ms
+ 2025-06-29 20:25:58.139 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 20:25:58.149 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:25:58.163 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 20:25:58.169 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 2.231 seconds (process running for 2.801)
+ 2025-06-29 20:26:07.040 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 20:26:07.040 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 20:26:07.041 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-29 20:26:07.064 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:26:07.090 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-29 20:26:07.348 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11d202ac
+ 2025-06-29 20:26:07.349 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-29 20:26:07.547 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:26:07.548 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:26:19.099 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/password
+ 2025-06-29 20:26:19.152 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200302, 错误信息: 参数有误, 错误描述: null
+ 2025-06-29 20:26:45.755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-29 20:26:45.854 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-29 20:27:01.819 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 29872 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 20:27:01.820 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 20:27:01.845 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 20:27:01.845 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 20:27:02.476 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 20:27:02.482 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:27:02.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 20:27:02.483 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 20:27:02.513 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 20:27:02.513 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 668 ms
+ 2025-06-29 20:27:03.292 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 20:27:03.302 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:27:03.313 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 20:27:03.321 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.707 seconds (process running for 2.207)
+ 2025-06-29 20:27:11.606 [http-nio-8888-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 20:27:11.606 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 20:27:11.607 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-29 20:27:11.632 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.632 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.632 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.632 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:27:11.632 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.632 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:27:11.631 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-29 20:27:11.631 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/login
+ 2025-06-29 20:27:11.660 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-29 20:27:11.679 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.680 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:27:11.683 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.685 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.690 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.693 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.696 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.699 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.702 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.705 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.708 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.711 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.714 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.717 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.719 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:11.722 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:27:11.892 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@321172be
+ 2025-06-29 20:27:11.892 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-29 20:27:12.052 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:27:12.079 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:27:12.096 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-29 20:27:12.101 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.114 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/schoolInfo
+ 2025-06-29 20:27:12.116 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-29 20:27:12.116 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.129 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/student/login
+ 2025-06-29 20:27:12.146 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 20:27:12.146 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.handler.GlobalExceptionHandler - 错误码: 200102, 错误信息: 用户不存在, 错误描述: null
+ 2025-06-29 20:27:12.148 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.152 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 20:27:12.153 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.159 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:27:12.161 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.170 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:27:12.171 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.174 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 20:27:12.174 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 20:27:12.175 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.175 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.181 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:27:12.188 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:27:12.189 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.228 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/exams_stu
+ 2025-06-29 20:27:12.229 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/student/stu_info
+ 2025-06-29 20:27:12.229 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.230 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 20:27:12.234 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/exams_stu
+ 2025-06-29 20:27:12.234 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/student/stu_info
+ 2025-06-29 20:27:14.849 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:27:14.849 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:27:16.594 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 20:27:16.594 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 20:27:27.035 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:27:27.083 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:27:27.084 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:27:35.841 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/password
+ 2025-06-29 20:30:21.494 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-29 20:30:21.610 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-29 20:30:24.812 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 32640 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 20:30:24.813 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 20:30:24.838 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 20:30:24.839 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 20:30:25.484 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 20:30:25.490 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:30:25.491 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 20:30:25.492 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 20:30:25.528 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 20:30:25.528 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 689 ms
+ 2025-06-29 20:30:26.307 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 20:30:26.320 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:30:26.333 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 20:30:26.340 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.743 seconds (process running for 2.188)
+ 2025-06-29 20:30:53.607 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 20:30:53.607 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 20:30:53.608 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2025-06-29 20:30:53.628 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/teacher/passwordWithoutLogin
+ 2025-06-29 20:30:53.694 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-29 20:30:53.907 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68398e14
+ 2025-06-29 20:30:53.908 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-29 20:31:06.737 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 20:31:06.864 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 20:31:06.871 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 20:35:12.264 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-29 20:35:12.356 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2025-06-29 20:35:15.636 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Starting SMSApplication using Java 17.0.13 with PID 212 (D:\Desktop\03_302023325005_陈伟康\back\target\classes started by obiwan in D:\Desktop\03_302023325005_陈伟康\back)
+ 2025-06-29 20:35:15.638 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - The following 1 profile is active: "dev"
+ 2025-06-29 20:35:15.662 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2025-06-29 20:35:15.662 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2025-06-29 20:35:16.325 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+ 2025-06-29 20:35:16.331 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:35:16.332 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2025-06-29 20:35:16.332 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+ 2025-06-29 20:35:16.366 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2025-06-29 20:35:16.367 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 705 ms
+ 2025-06-29 20:35:17.178 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2025-06-29 20:35:17.189 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+ 2025-06-29 20:35:17.204 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path '/'
+ 2025-06-29 20:35:17.212 [restartedMain] INFO  cn.lonesome.sms.SMSApplication - Started SMSApplication in 1.792 seconds (process running for 2.245)
+ 2025-06-29 20:37:07.698 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2025-06-29 20:37:07.699 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2025-06-29 20:37:07.699 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 2025-06-29 20:37:07.718 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/passwordWithoutLogin
+ 2025-06-29 20:37:07.730 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: PUT uri: /api/admin/passwordWithoutLogin
+ 2025-06-29 20:37:07.801 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2025-06-29 20:37:08.010 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@576d8514
+ 2025-06-29 20:37:08.011 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2025-06-29 20:37:15.110 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 20:37:15.231 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 20:37:15.231 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 20:37:18.070 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 20:37:18.075 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 21:07:20.080 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-29 21:07:20.083 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 23:04:45.185 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/login
+ 2025-06-29 23:04:45.199 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/admin/login
+ 2025-06-29 23:04:45.492 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/schoolInfo
+ 2025-06-29 23:04:45.492 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/exams
+ 2025-06-29 23:04:45.545 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:04:45.545 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:04:45.549 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/schoolInfo
+ 2025-06-29 23:04:45.555 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/exams
+ 2025-06-29 23:05:05.780 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-29 23:05:05.781 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:05.784 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-29 23:05:06.194 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/student
+ 2025-06-29 23:05:06.195 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:06.200 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/student
+ 2025-06-29 23:05:06.793 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-29 23:05:06.795 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:06.800 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-29 23:05:11.961 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-29 23:05:11.963 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:11.965 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-29 23:05:12.009 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/major
+ 2025-06-29 23:05:12.009 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:12.011 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/major
+ 2025-06-29 23:05:12.059 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-29 23:05:12.060 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:12.066 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-29 23:05:12.084 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/teacher
+ 2025-06-29 23:05:12.085 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:12.088 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-29 23:05:12.513 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-29 23:05:12.514 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:12.519 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-29 23:05:13.064 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course_schedule
+ 2025-06-29 23:05:13.064 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/teacher
+ 2025-06-29 23:05:13.065 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:13.067 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/class
+ 2025-06-29 23:05:13.067 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/course
+ 2025-06-29 23:05:13.068 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:13.068 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:13.069 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course_schedule
+ 2025-06-29 23:05:13.072 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/course
+ 2025-06-29 23:05:13.072 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/class
+ 2025-06-29 23:05:14.726 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-29 23:05:14.728 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:14.735 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-29 23:05:19.743 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/college
+ 2025-06-29 23:05:19.744 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:19.747 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: DELETE uri: /api/admin/college
+ 2025-06-29 23:05:20.519 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/college
+ 2025-06-29 23:05:24.357 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:24.358 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:24.362 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:05:27.384 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:27.385 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:27.387 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:05:32.423 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:32.423 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:32.428 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:05:33.031 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:33.031 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:33.034 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:05:34.045 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:34.046 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:34.049 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:05:34.675 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:34.676 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:34.677 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:05:35.155 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/admin/score
+ 2025-06-29 23:05:35.156 [http-nio-8888-exec-9] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:05:35.158 [http-nio-8888-exec-2] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/admin/score
+ 2025-06-29 23:06:13.352 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: POST uri: /api/teacher/login
+ 2025-06-29 23:06:13.541 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/teacher_info
+ 2025-06-29 23:06:13.541 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: OPTIONS uri: /api/teacher/exams_teacher
+ 2025-06-29 23:06:13.542 [http-nio-8888-exec-4] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:06:13.543 [http-nio-8888-exec-10] INFO  cn.lonesome.sms.interceptor.AuthInterceptor - 未登陆
+ 2025-06-29 23:06:13.546 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 23:06:13.546 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 23:07:49.309 [http-nio-8888-exec-8] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 23:07:49.309 [http-nio-8888-exec-1] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 23:07:53.638 [http-nio-8888-exec-3] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 23:07:53.638 [http-nio-8888-exec-6] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 23:09:11.838 [http-nio-8888-exec-7] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/exams_teacher
+ 2025-06-29 23:09:11.838 [http-nio-8888-exec-5] INFO  cn.lonesome.sms.interceptor.LogInterceptor - method: GET uri: /api/teacher/teacher_info
+ 2025-06-29 23:20:22.798 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2025-06-29 23:20:22.806 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

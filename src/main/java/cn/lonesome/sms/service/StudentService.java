@@ -72,6 +72,7 @@ public class StudentService {
         }
     }
 
+
     public Student login(long id, String password) {
         if (studentMapper.checkId(id) != 1) {
             throw new CustomException(ErrorCode.PARAM_ERROR);
@@ -98,7 +99,9 @@ public class StudentService {
                 .page(page)
                 .build();
     }
-
+    public Student getStudentById(Long studentId) {
+        return studentMapper.selectById(studentId);
+    }
     public void updateStudent(long id, String name, String gender, int birthYear,
                               String hometown, String className) {
         if (studentMapper.checkId(id) != 1
@@ -139,6 +142,11 @@ public class StudentService {
         studentMapper.changePassword(newPassword, id);
     }
 
+
+    public void updatePasswordWithoutLogin(long id, String newPassword) {
+
+        studentMapper.changePassword(newPassword, id);
+    }
     public ArrayList<HometownDto> getHometownCounts() {
         ArrayList<String> hometownList = studentMapper.selectHometownList();
         ArrayList<HometownDto> hometownDtoList = new ArrayList<>();
@@ -162,5 +170,7 @@ public class StudentService {
                 .size(size)
                 .build();
     }
+
+
 }
 

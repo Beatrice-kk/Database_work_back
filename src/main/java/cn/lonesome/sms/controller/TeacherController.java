@@ -3,6 +3,8 @@ package cn.lonesome.sms.controller;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.lonesome.sms.model.dto.AjaxResp;
 import cn.lonesome.sms.model.dto.ChangePasswordDto;
+import cn.lonesome.sms.model.dto.ChangePasswordWithoutLoginDto;
+
 import cn.lonesome.sms.model.entity.Course;
 import cn.lonesome.sms.model.entity.Teacher;
 import cn.lonesome.sms.service.CourseScheduleServer;
@@ -39,9 +41,38 @@ public class TeacherController {
     @PutMapping("/password")
     public Object changePassword(@RequestBody ChangePasswordDto dto) {
         int userName = StpUtil.getLoginIdAsInt();
+        System.out.println("oldPassword = " + dto.getOldPassword());
+        System.out.println("newPassword = " + dto.getNewPassword());
+
         teacherService.changePassword(userName, dto.getOldPassword(), dto.getNewPassword(), false);
         return AjaxResp.success();
     }
+//
+    @PutMapping("/passwordWithoutLogin")
+    public Object changePassword_without_login(@RequestBody ChangePasswordWithoutLoginDto dto) {
+        int userName=dto.getAccount();
+
+//        // 判断是否已登录
+//        if (StpUtil.isLogin()) {
+//            // 登录状态下使用当前登录用户 ID
+//            userId = StpUtil.getLoginIdAsInt();
+//        } else {
+//            // 未登录，必须传账号才能处理
+//            if (dto.getAccount() == null) {
+//                return AjaxResp.error("未登录状态下必须提供账号");
+//            }
+//            userId = userService.getIdByAccount(dto.getAccount());
+//            if (userId == null) {
+//                return AjaxResp.error("用户不存在");
+//            }
+//        }
+
+        // 修改密码
+        teacherService.changePasswordWithoutLogin(userName, dto.getNewPassword());
+
+        return AjaxResp.success("密码修改成功");
+    }
+
 
     @GetMapping("/score")
     public Object getScore(@RequestParam int page,

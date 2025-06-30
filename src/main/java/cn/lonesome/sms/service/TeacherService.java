@@ -108,6 +108,10 @@ public class TeacherService {
         }
         teacherMapper.changePassword(newPassword, id);
     }
+    public void changePasswordWithoutLogin(long id, String newPassword) {
+
+        teacherMapper.changePassword(newPassword, id);
+    }
 
     public Teacher login(int id, String password) {
         if (teacherMapper.login(id, password) != 1) {

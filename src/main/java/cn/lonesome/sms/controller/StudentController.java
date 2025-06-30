@@ -3,6 +3,7 @@ package cn.lonesome.sms.controller;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.lonesome.sms.model.dto.AjaxResp;
 import cn.lonesome.sms.model.dto.ChangePasswordDto;
+import cn.lonesome.sms.model.dto.ChangePasswordWithoutLoginDto;
 import cn.lonesome.sms.model.entity.Course;
 import cn.lonesome.sms.model.entity.Student;
 import cn.lonesome.sms.service.CourseScheduleServer;
@@ -41,6 +42,18 @@ public class StudentController {
         studentService.updatePassword(StpUtil.getLoginIdAsLong(), dto.getOldPassword(), dto.getNewPassword(), false);
         return AjaxResp.success();
     }
+    @PutMapping("/passwordWithoutLogin")
+    public Object changePassword_without_login(@RequestBody ChangePasswordWithoutLoginDto dto) {
+        int userName=dto.getAccount();
+
+        // 修改密码
+        studentService.updatePasswordWithoutLogin(userName, dto.getNewPassword());
+
+        return AjaxResp.success("密码修改成功");
+    }
+
+
+
 
     @GetMapping("/course")
     public Object getCourse(int page, int size, String term) {

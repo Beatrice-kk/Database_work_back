@@ -208,6 +208,9 @@ public interface CourseMapper {
     })
     List<Course> getStudentExams(@Param("studentId") long studentId);
 
+
+
+    //占位符绑定参数，防止 SQL 注入
     @Select("SELECT c.cwk_name03, c.cwk_final_exam_date03 "
             + "FROM chenwk_course_schedule03 s "
             + "JOIN chenwk_course03 c ON s.cwk_course_id03 = c.cwk_id03 "

@@ -7,6 +7,7 @@ import cn.lonesome.sms.model.dto.*;
 import cn.lonesome.sms.model.entity.Admin;
 import cn.lonesome.sms.model.entity.College;
 import cn.lonesome.sms.model.entity.Course;
+import cn.lonesome.sms.model.entity.Student;
 import cn.lonesome.sms.service.*;
 import cn.lonesome.sms.utils.ExcelUtil;
 import lombok.RequiredArgsConstructor;
@@ -51,6 +52,19 @@ public class AdminController {
         adminService.changePassword(userName, dto.getOldPassword(), dto.getNewPassword());
         return AjaxResp.success();
     }
+
+
+    @PutMapping("/passwordWithoutLogin")
+    public Object changePassword_without_login(@RequestBody ChangePasswordWithoutLoginDto dto) {
+        int userName=dto.getAccount();
+
+        adminService.changePasswordWithoutLogin(userName, dto.getNewPassword());
+
+        return AjaxResp.success("密码修改成功");
+    }
+
+
+
 
     @PutMapping
     public Object updateAdmin(@RequestBody ChangeRoleDto dto) {
@@ -245,6 +259,16 @@ public class AdminController {
                                  @RequestParam(value = "className", required = false) String studentClass,
                                  @RequestParam(value = "hometown", required = false) String hometown) {
         return AjaxResp.success(studentService.getStudentsFind(page, size, name, gender, studentClass, hometown));
+    }
+    @GetMapping("/student/findById")
+    public Object getStudentById(@RequestParam("id") Long studentId) {
+        Student student = studentService.getStudentById(studentId);
+        if (student != null) {
+            return AjaxResp.success(student);
+        } else {
+            return 0;
+//                    AjaxResp.error("未找到对应学号的学生信息");
+        }
     }
 
 

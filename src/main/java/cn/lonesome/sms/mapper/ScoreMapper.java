@@ -22,7 +22,7 @@ public interface ScoreMapper {
     int selectCountByStudentId(long studentId, String term);
 
     @Select("select count(*) from chenwk_teacher_course_score where cwk_teacher_id03=#{teacherId} and cwk_term03=#{term}")
-    int selectCountByTeacherId(long teacherId, String term);
+    int selectCountByTeacherIdAndTerm(long teacherId, String term);
 
     @Select("select * from chenwk_teacher_course_score where cwk_term03=#{term} limit #{offset}, #{limit}")
     @Results({
@@ -97,7 +97,11 @@ public interface ScoreMapper {
             "from chenwk_teacher_course_score " +
             "where cwk_teacher_id03=#{teacherId} and cwk_course_id03=#{courseId} " +
             "and cwk_class_name03=#{className}")
-    int selectCountByTeacherId(long teacherId, String className, String courseId);
+    int selectCountByTeacherIdAndCourseAndClass(
+            @Param("teacherId") long teacherId,
+            @Param("className") String className,
+            @Param("courseId") String courseId);
+
 
     @Select("select cwk_student_id03, cwk_student_name03, cwk_year03, cwk_gpa03, cwk_credit03 " +
             "from chenwk_student_score_year " +

@@ -20,6 +20,9 @@ public interface AdminMapper {
     @Select("select count(*) from chenwk_admin03 where cwk_id03=#{username}")
     int checkUsername(Integer username);
 
+
+
+    //存储    可执行代码存放在数据库中
     @Update("call admin_change_password(#{password}, #{username})")
     void changePassword(Integer username, String password);
 

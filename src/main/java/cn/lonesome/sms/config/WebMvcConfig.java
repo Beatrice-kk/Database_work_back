@@ -18,7 +18,18 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(@NotNull InterceptorRegistry registry) {
         WebMvcConfigurer.super.addInterceptors(registry);
-        registry.addInterceptor(new LogInterceptor()).addPathPatterns("/**");
-        registry.addInterceptor(new AuthInterceptor()).addPathPatterns("/**");
+
+        registry.addInterceptor(new LogInterceptor())
+                .addPathPatterns("/**");
+
+        registry.addInterceptor(new AuthInterceptor())
+                .addPathPatterns("/**")
+                .excludePathPatterns(
+                        "/api/teacher/passwordWithoutLogin" ,//忘记密码放行
+
+                        "/api/admin/passwordWithoutLogin" ,
+                        "/api/student/passwordWithoutLogin"
+
+                );
     }
 }

@@ -157,7 +157,7 @@ public interface StudentMapper {
     @Update("call student_change_password(#{password}, #{id})")
     int changePassword(@Param("password") String password, @Param("id") long id);
 
-    @Select("select distinct cwk_hometown03 from chenwk_student03")
+    @Select("select distinct cwk_hometown03 from chenwk_student03")   //去重   获取所有家乡
     ArrayList<String> selectHometownList();
 
     @Select("SELECT " +
@@ -220,4 +220,19 @@ public interface StudentMapper {
     int selectCountByConditions(@Param("name") String name, @Param("gender") String gender,
                                 @Param("studentClass") String studentClass, @Param("hometown") String hometown);
 
+    @Select("SELECT chenwk_student03.cwk_id03, chenwk_student03.cwk_name03, cwk_gender03, cwk_birth_year03, cwk_hometown03, " +
+            "chenwk_class03.cwk_name03 as cwk_class_name03, cwk_credits03 " +
+            "FROM chenwk_student03 " +
+            "LEFT JOIN chenwk_class03 ON chenwk_student03.cwk_class_id03 = chenwk_class03.cwk_id03 " +
+            "WHERE chenwk_student03.cwk_id03 = #{studentId}")
+    @Results({
+            @Result(column = "cwk_id03", property = "id"),
+            @Result(column = "cwk_name03", property = "name"),
+            @Result(column = "cwk_gender03", property = "gender"),
+            @Result(column = "cwk_birth_year03", property = "birthYear"),
+            @Result(column = "cwk_hometown03", property = "hometown"),
+            @Result(column = "cwk_class_name03", property = "className"),
+            @Result(column = "cwk_credits03", property = "credits")
+    })
+    Student selectById(@Param("studentId") Long studentId);
 }

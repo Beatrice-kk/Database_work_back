@@ -73,12 +73,16 @@ public interface TeacherMapper extends BaseMapper<Teacher> {
     })
     ArrayList<Teacher> selectByCollegeName(@Param("offset") int offset, @Param("limit") int limit, @Param("college_name") String collegeName);
 
+
+    //存储方式
     @Update("call teacher_change_password(#{password}, #{id})")
     int changePassword(@Param("password") String password, @Param("id") long id);
 
     @Select("select count(*) from chenwk_teacher03 where cwk_id03=#{id} and cwk_password03=#{password}")
     int login(@Param("id") long id, @Param("password") String password);
 
+
+    //注解方式
     @Select("select chenwk_teacher03.cwk_id03, chenwk_teacher03.cwk_name03, cwk_gender03, cwk_birth_year03, cwk_phone03, cwk_title03, " +
             "chenwk_college03.cwk_name03 as cwk_college_name03 " +
             "from chenwk_teacher03, chenwk_college03 " +
